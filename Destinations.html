@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="#" class="logo-link">
+            <img src="images/Logo.png" alt="Explore Logo" class="logo">
+        </a>
+        <ul class="menu">
+            <li><a href="Index.html" class="active">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Destinations.html">Destinations</a>
+                <ul class="submenu">
+                    <li><a href="#paris">Paris</a></li>
+                    <li><a href="#london">London</a></li>
+                    <li><a href="#sevilla">Sevilla</a></li>
+                    <li><a href="#tokyo">Tokyo</a></li>
+                    <li><a href="#rome">Rome</a></li>
+                    <li><a href="#instanbul">Istanbul</a></li>
+                    <li><a href="#santorini">Santorini</a></li>
+                    <li><a href="#barcelona">Barcelona</a></li>
+                    <li><a href="#maldive">Maldives</a></li>
+                </ul>
+            </li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Search.html">Search</a></li>
+        </ul>
+    
+</header>
+
+<section id="booking-date-picker">
+    <h2>Book Your Stay</h2>
+   
+        <div class="date-picker-container">
+            <label for="location">Location:</label>
+            <select id="location" name="location" required>
+                <option value="">Select a location</option>
+                <option value="paris">Paris</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="tokyo">London</option>
+                <option value="paris">Tokyo</option>
+                <option value="sevilla">Santorini</option>
+                <option value="tokyo">Maldives</option>
+                <option value="paris">Barcelona</option>
+                <option value="sevilla">Rome</option>
+                <option value="tokyo">Istanbul</option>
+                
+            </select>
+        </div>
+        <div class="date-picker-container">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" name="start-date" required>
+        </div>
+        <div class="date-picker-container">
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" name="end-date" required>
+        </div>
+        <button type="submit">Check Availability</button>
+    
+</section>
+
+<section class="destinations-container">
+    
+    <div id="paris" class="destination">
+        <img src="images/paris2.jpeg" alt="Paris" class="destination-image">
+        <h3>Paris</h3>
+        <p>Paris enchants with its romantic allure, the majestic Eiffel Tower, and the artistic treasures of the Louvre. It's a city of light and love, offering timeless beauty and culinary delights in every corner.</p>
+        <span class="price">From 144€/2 nights</span>
+    </div>
+    <div id="sevilla" class="destination">
+        <img src="images/sevilla.jpg" alt="Sevilla" class="destination-image">
+        <h3>Sevilla</h3>
+        <p>Sevilla captivates with its vibrant flamenco rhythms, the stunning Alcázar Palace, and the Gothic grandeur of its cathedral. It's a city where every sunset paints the ancient streets in golden hues, promising magic and mystery.</p>
+        <span class="price">From 300€/3 nights</span>
+    </div>
+    <div id="tokyo" class="destination">
+        <img src="images/tokyo.png" alt="Tokyo" class="destination-image">
+        <h3>Tokyo</h3>
+        <p>Tokyo, a city where cutting-edge technology and ancient traditions blend seamlessly, offers an electrifying mix of neon-lit skyscrapers, historic temples, and boundless culinary adventures.</p>
+        <span class="price">From 964€/3 nights</span>
+    </div>
+    <div id="rome" class="destination">
+        <img src="images/rome.jpg" alt="Rome" class="destination-image">
+        <h3>Rome</h3>
+        <p>Rome, an eternal city, weaves a rich tapestry of history, art, and architecture, from the ancient ruins of the Colosseum to the Vatican's sacred beauty.</p>
+        <span class="price">From 106€/2 nights</span>
+    </div>
+    <div id="istanbul" class="destination">
+        <img src="images/istanbul.jpeg" alt="Istanbul" class="destination-image">
+        <h3>Istanbul</h3>
+        <p>Istanbul, where continents collide, boasts a mosaic of Byzantine relics, Ottoman palaces, and vibrant bazaars, bridging the gap between Europe and Asia with its rich history and cultural fusion.</p>
+        <span class="price">From 229€/4 nights</span>
+    </div>
+    <div id="london"class="destination">
+        <img src="images/london2.jpg" alt="London" class="destination-image">
+        <h3>London</h3>
+        <p>London dazzles with royal charm, iconic landmarks like Big Ben, and the cultural vibrancy of Buckingham Palace. It's a city where history meets modernity, promising unforgettable adventures at every turn.</p>
+        <span class="price">From 111€/2 nights</span>
+    </div>
+    <div id="santorini" class="destination">
+        <img src="images/santorini.jpg" alt="Santorini" class="destination-image">
+        <h3>Santorini</h3>
+        <p>Santorini, with its cliff-top villages of gleaming white houses and blue-domed churches, offers breathtaking sunsets over the Aegean Sea, embodying the quintessence of Greek island beauty.</p>
+        <span class="price">From 300€/3 nights</span>
+    </div>
+    <div id="barcelona" class="destination">
+        <img src="images/barcelona.png" alt="Barcelona" class="destination-image">
+        <h3>Barcelona</h3>
+        <p>Barcelona, a city of architectural marvels and Catalan culture, thrives with Gaudí's whimsical creations, sun-drenched beaches, and a lively tapas scene, inviting exploration at every turn.</p>
+        <span class="price">From 209€/2 nights</span>
+    </div>
+    <div id="maldive" class="destination">
+        <img src="images/maldive.jpg" alt="Maldives" class="destination-image">
+        <h3>Maldives</h3>
+        <p>The Maldives, an idyllic archipelago, captivates with its crystal-clear waters, overwater bungalows, and vibrant coral reefs, offering a serene paradise for relaxation and underwater adventure.</p>
+        <span class="price">From 350€/4 nights</span>
+    </div>
+</section>
+
+</body>
+
+<footer class="site-footer">
+    <div class="footer-content">
+      <p>Explore</p>
+      <p>Travel Agency</p>
+    </div>
+  </footer>
+  
+</html>
